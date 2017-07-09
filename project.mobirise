@@ -1,0 +1,869 @@
+{
+  "settings": {
+    "name": "Siostra Faustyna",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#f5e12a",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#136ee2",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Roboto Slab",
+        "subtitleFont": "Droid Sans",
+        "textFont": "Noto Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 40,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/faustyna-w-niebie-2000x1250.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br>Święta Faustyna",
+                "showText": true,
+                "text": "Święte Słowa",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form1-t\" data-toolbar=\"-mbrBtnMove\">Zapisz się</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#header2-3\" data-toolbar=\"-mbrBtnMove\">Życiorys</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br>Z dzienniczka siostry Faustyny<br><br>",
+                "showText": true,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form1-t\" data-toolbar=\"-mbrBtnMove\">Cytaty<br></a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<br>Święte słowa",
+                "showText": true,
+                "text": "Święte słowa jest to usuga stworzona............................opisz co to ....Regulamin",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form1-t\" data-toolbar=\"-mbrBtnMove\">Zapisz się</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#header2-3\" data-toolbar=\"-mbrBtnMove\">Świete słowa</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-10",
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1f5087"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2662a4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2969b0"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f5e12a!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
+          "_params": {
+            "bgColor": "#2969b0",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/imageedit-1.gif",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://youngtree.pl/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Święte Słowa</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-5\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-3\">Życiorys<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-6\">Modlitwy</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html#features7-n\">Informacje o usłudze<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"index.html#form1-t\">Zapisz się</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "DIV": {
+              "font-size": "46px"
+            },
+            "H3": {
+              "font-size": "46px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": "4",
+            "bgColor": "#efefef",
+            "showMeta": true
+          },
+          "title": "MODLITWA O UPROSZENIE ŁASK<div>PRZEZ WSTAWIENNICTWO ŚWIĘTEJ SIOSTRY FAUSTYNY</div>",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-7",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "O Jezu, któryś świętą Faustynę&nbsp;<div>uczynił wielką czcicielką nieograniczonego miłosierdzia Twego,&nbsp;</div><div>racz za jej wstawiennictwem,</div><div>jeśli to jest zgodne z najświętszą wolą Twoją,&nbsp;</div><div>udzielić mi łaski ................, o którą Cię proszę.&nbsp;</div><div>Ja grzeszny nie jestem godzien Twego miłosierdzia,&nbsp;</div><div>ale wejrzyj na ducha ofiary i poświęcenia siostry Faustyny&nbsp;</div><div>i nagródź jej cnotę, wysłuchując próśb,&nbsp;</div><div>które za jej przyczyną z ufnością do Ciebie zanoszę.</div><div><br></div><div>Ojcze nasz..., Zdrowaś Maryjo..., Chwała Ojcu...</div><div><br></div><div>Święta Siostro Faustyno módl się za nami.</div>"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p><span style=\"font-size: 1.125rem; line-height: 2;\"><b><a href=\"http://youngtree.eu/\" target=\"_blank\">YoungTree</a></b></span><span style=\"font-size: 1.125rem; line-height: 2;\"><b><a href=\"http://youngtree.eu/\" target=\"_blank\">.eu</a></b> - miejsce w sieci, które rozwija się i wzrasta. Jesteśmy dla Was i wzrastamy dzięki Wam. Chcemy, poprzez tworzenie nowej jakości chrześcijańskich produktów - świadczyć o Bogu, który jest Miłością, daje nam radość i pozwala żyć pasją.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/logo-na-stronk-160x160.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "http://youngtree.pl/",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": true
+                }
+              },
+              "authorName": "<a href=\"http://youngtree.eu/\" target=\"_blank\">YoungTree.eu</a>",
+              "authorBio": "User"
+            },
+            {
+              "text": "W<b> <a href=\"http://www.ecclesiae.it/\" target=\"_blank\">Ecclesiae.it</a> </b><i>wierzymy</i>, że poświęcając swój wolny czas możemy wspólnie pomóc budować Kościół, służąc bezinteresowanie tym czym nas Pan obdarzył. Bo „Komu wiele dano, od tego wiele wymagać się będzie\" (ŁK 12,39)",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/it-logo-160x80.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "<a href=\"http://www.ecclesiae.it/\" target=\"_blank\">Ecclesiae.it</a>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>Akcja powstała pod patronatem Ruchu Światło-Życie Archidiecezji Krakowskiej-święte słowa ty będą 3 przekiereowania</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/foska-a-152x160.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Święte słowa",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": false
+          },
+          "title": "Organizatorzy",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Koniec<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".btn": {
+              "font-size": "17px"
+            },
+            ".mbr-section-text B": {
+              "color": "#3d8eb9"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "header2-3",
+          "_params": {
+            "imageSize": "36",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1122.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/imageedit-1.gif",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Święta Faustyna",
+          "text": "Kim była?...<br>Co robiła?...<br>Jak żyła?...<br><i>Chcesz się dowiedzieć?...<br></i><b>Kliknij po więcej!</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#content1-5\" data-toolbar=\"-mbrBtnMove\">Więcej!</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-5",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "Helena Kowalska urodziła się 25 sierpnia 1905 r. we wsi Głogowice , była ona trzecim dzieckiem z dziesięciorga potomków Marianny i Stanisława Kowalskich .Mimo wielu przeszkód takich jak ubóstwo rodziny i bardzo słabe wykształcenie, zawsze potrafiła dojrzeć boga w swoim życiu.<div>Już jako 16 latka zaczęła pracować w mieście jako służąca. W tak młodym wieku nie zajmowała się zabawą .Pomagała swojej rodzinie w utrzymaniu ,co nie było łatwe .Co ciekawe ,święta Faustyna w swojej umowie o prace pracę zastrzegła sobie prawo odprawiania dorocznych rekolekcji, codzienne uczestnictwo we Mszy św. oraz możliwość odwiedzania chorych i potrzebujących pomocy.</div><div>Jako dwudziestoletnia kobieta wstąpiła do Zgromadzenia Sióstr Matki Bożej Miłosierdzia .Jako siostra Maria Faustyna przeżyła trzynaście lat, pracując w zakonie jako kucharka, ogrodniczka i furtianka.</div><div>Życie tej wielkiej  świętej było zwyczajne ,niczym się nie wyróżniało .Tajemnicą  jej życia była bardzo silna więź z Bogiem. Już od dziecka Helenka pragnęła zostać świętom, starała się postępować zgodnie ze swoim zamiarem. Wraz z Jezusem ratowała zagubione owieczki by spokojnie powróciły do swego pasterza. Święta Faustyna ofiarowała swe życie w ofierze za grzeszników. Święta osoba cierpiała nie tylko przez swe liczne choroby lecz także przez stygmatyczne rany. Siostra Faustyna przez całe swoje życie ufała panu ,oddawała mu wszystkie swoje troski, oraz każdego człowieka. W modlitwach zawierzyła mu także ciebie.To ona zleciła namalowanie Jezusa miłosiernego który jej objawił się.</div><div>Siostra Faustyna - wyniszczona gruźlicą oraz cierpieniami jakie znosiła w ofierze za grzeszników - zmarła w Krakowie 5 października 1938 r., mając zaledwie 33 lata.-tak młoda a tyle zdziałała.</div><div><br></div>"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            },
+            ".card-footer > div DIV": {
+              "color": "#efefef"
+            },
+            ".card-footer > div": {
+              "color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p><span style=\"font-size: 1.125rem; line-height: 2;\">Dla ciebie błogosławię krajowi całemu – i uczynił duży znak krzyża ręką nad Ojczyzna naszą. Radość wielka napełniła duszę moją widząc dobroć Boga.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "<div>(Dz39)</div><div><br></div>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<div><span style=\"font-size: 1.125rem; line-height: 2;\">Obiecuję, że dusza, która czcić będzie ten obraz, nie zginie. Obiecuję także, już tu na ziemi zwycięstwo nad nieprzyjaciółmi, a szczególnie w godzinę śmierci. Ja Sam bronić ją będę jako Swej chwały</span><br></div><div><br></div>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "<div><br></div><div>(Dz 48)</div><div><br></div>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>Jezus tylko wie jak ciężko i trudno spełniać obowiązki, kiedy dusza jest w stanie udręk wewnętrznych, siły fizyczne są mniejsze, a umysł przyćmiony.</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "(Dz 70)",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-s",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false,
+            "count": "3",
+            "showImages": false,
+            "showName": true,
+            "showBio": false
+          },
+          "title": "Z Dzienniczka siostry Faustyny",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1122-800x448.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1122.jpg",
+                "caption": "Czyń, co chcesz, rozdawaj łaski jak chcesz, komu chcesz i kiedy chcesz.<br>(Dz 31)<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1122-800x448.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1122.jpg",
+                "caption": "Dla ciebie błogosławię krajowi całemu – i uczynił duży znak krzyża ręką nad Ojczyzna naszą. Radość wielka napełniła duszę moją widząc dobroć Boga.<br>(Dz 39)<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1122-800x448.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1122.jpg",
+                "caption": "Jezus tylko wie jak ciężko i trudno spełniać obowiązki, kiedy dusza jest w stanie udręk wewnętrznych, siły fizyczne są mniejsze, a umysł przyćmiony.<br>(Dz 70)<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1122-800x448.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1122.jpg",
+                "caption": "Jezus tylko wie jak ciężko i trudno spełniać obowiązki, kiedy dusza jest w stanie udręk wewnętrznych, siły fizyczne są mniejsze, a umysł przyćmiony.<br>(Dz 70)<br>",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": false,
+            "bgColor": "#efefef",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-q",
+          "articleLayout": false,
+          "allItem": "All",
+          "_styles": {
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-t",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Zapisz się już dziś",
+          "subtitle": "<br>Codzienny SMS z krótkim fragment z dzienniczka siostry Faustyny pozwoli Ci lepiej poznać i zrozumieć serce Naszego Pana.  Krótka, ale codzienna myśl - niezależnie od miejsca, w którym się znajdujemy.<br>Całkowity koszt usługi to tylko 9 zł + VAT&nbsp;",
+          "form": {
+            "action": "mleczkozuzanna@gmail.com",
+            "alerts": {
+              "success": "Dziękujemy .Usługa została pomyślnie uruchomiona."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Imię"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Email"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Dodatkowe uwagi- poproś wujka oi usunięcie tego pola "
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Dalej</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-11",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Powiedz innym o akcji !"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#2969b0",
+              "border-color": "#2969b0"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-n",
+          "_params": {
+            "iconsBgColor": "#2969b0",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title1": "Kiedy?",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Codziennie, między 19:00-21:00 ........",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title2": "Treść?",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Fragmenty z dzienniczka siostry faustyny...",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title3": "Koszt?",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Koszt za cały miesiąc usługi to 9 zł + VAT",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-p",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": false,
+            "showButton": true
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form1-t\" data-toolbar=\"-mbrBtnMove\">Zapisz się</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef",
+            "showMeta": true
+          },
+          "title": "LITANIA DO ŚWIĘTEJ FAUSTYNY",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-9",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "<div><br></div><div><br></div><div><br></div><div><br></div><div>Kyrie eleison, Christe eleison, Kyrie eleison,</div><div>Chryste usłysz nas, Chryste wysłuchaj nas.</div><div>Ojcze z nieba, Boże - zmiłuj się nad nami.</div><div>Synu Odkupicielu świata, Boże - zmiłuj się nad nami.</div><div>Duchu Święty, Boże - zmiłuj się nad nami.</div><div>Święta Trójco, Jedyny Boże - zmiłuj się nad nami.</div><div>Święta Maryjo - módl się za nami.</div><div>Święta Faustyno, żywy świadku miłosierdzia Ojca niebieskiego - módl się za nami.</div><div>Święta Faustyno, pokorna służebnico Jezusa - Wcielonego Miłosierdzia</div><div>Święta Faustyno, posłuszne narzędzie Ducha Pocieszyciela</div><div>Święta Faustyno, ufna córko Matki Miłosierdzia</div><div>Święta Faustyno, powiernico orędzia o miłosierdziu Bożym</div><div>Święta Faustyno, wierna sekretarko słów Jezusa Miłosiernego</div><div>Święta Faustyno, wielka apostołko miłosierdzia Bożego</div><div>Święta Faustyno, szafarko Boga bogatego w miłosierdzie</div><div>Święta Faustyno, darze Boga dla całego świata</div><div>Święta Faustyno, dostrzegająca dobroć Stwórcy w każdym stworzeniu</div><div>Święta Faustyno, wielbiąca Boga w tajemnicy Wcielenia</div><div>Święta Faustyno, uczestniczko męki i zmartwychwstania Pana</div><div>Święta Faustyno, przewodniczko na drodze Jezusowego krzyża</div><div>Święta Faustyno, spotykająca się z Jezusem w sakramentach świętych</div><div>Święta Faustyno, zjednoczona z Oblubieńcem w swej duszy</div><div>Święta Faustyno, olśniona miłosierdziem Boga w życiu Maryi</div><div>Święta Faustyno, miłująca Kościół - Mistyczne Ciało Chrystusa</div><div>Święta Faustyno, mocna prawdziwą wiarą</div><div>Święta Faustyno, wytrwała niezłomną nadzieją</div><div>Święta Faustyno, płonąca gorącą miłością</div><div>Święta Faustyno, piękna prawdziwą pokorą</div><div>Święta Faustyno, prosta dziecięcą ufnością</div><div>Święta Faustyno, wzorze pełnienia woli Bożej</div><div>Święta Faustyno, przykładzie ofiarnej służby</div><div>Święta Faustyno, opiekunko troskliwa dusz kapłańskich i zakonnych</div><div>Święta Faustyno, ochrono przed złem ludzi młodych i dzieci</div><div>Święta Faustyno, nadziejo upadających i zrozpaczonych</div><div>Święta Faustyno, umocnienie chorych i cierpiących</div><div>Święta Faustyno, wspierająca ufność w sercach konających</div><div>Święta Faustyno, ofiarująca się za grzeszników</div><div>Święta Faustyno, zatroskana o zbawienie wszystkich ludzi</div><div>Święta Faustyno, orędowniczko cierpiących w czyśćcu</div><div>Święta Faustyno, prosząca o miłosierdzie Boga dla całego świata</div><div><br></div><div><br></div><div>Baranku Boży, który gładzisz grzechy świata - przepuść nam, Panie.</div><div>Baranku Boży, który gładzisz grzechy świata - wysłuchaj nas. Panie.</div><div>Baranku Boży, który gładzisz grzechy świata - zmiłuj się nad nami.</div><div><br></div><div><br></div><div>Módl się za nami święta Faustyno.</div><div>Abyśmy życiem i słowem głosili światu orędzie Miłosierdzia.&nbsp;</div><div><br></div><div>Módlmy się:&nbsp;</div><div>Miłosierny Boże, przyjmij nasze dziękczynienie za dar życia i posłannictwa świętej Faustyny i za jej wstawiennictwem pomóż nam wzrastać w postawie ufności wobec Ciebie i miłosierdzia względem bliźnich. Przez Chrystusa, Pana naszego.&nbsp;</div><div>Amen</div>"
+        }
+      ]
+    }
+  }
+}
